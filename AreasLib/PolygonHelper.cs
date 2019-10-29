@@ -9,10 +9,10 @@ namespace AreasLib
     public static class PolygonHelper
     {
         /// <summary>
-        /// Calculates and area of a polygon
+        /// Calculates an area of a polygon
         /// </summary>
-        /// <param name="points">and array of points comprising the polygon. 
-        /// This functions expects sides to be between every 2 adjacent points and between the first and the last ones.
+        /// <param name="points">an array of points comprising the polygon. 
+        /// This function expects sides to be between every 2 adjacent points and between the first and the last ones.
         /// This function doesn't check whether sides cross each other.</param>
         /// <returns>An area of the polygon if points are correct or -1 and an error otherwise.</returns>
         public static (double, Errors) Area(params Point[] points)
